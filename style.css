@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background-color: #8f674f;
+    color: #f2e8fd;
+}
+
+.name-description {
+    display: flex;
+}
+
+.name-description h1 {
+    font-size: 4em;
+    position: absolute;
+    top: 5vh;
+}
+
+.down-name {
+    display: flex;
+    font-size: 2em;
+    position: absolute;
+    top: 20vh;
+}
+
+.contact {
+    display: flex;
+    position: relative;
+    left: 5%;
+    top: 25vh;
+}
+
+.history {
+    display: flex;
+    position: relative;
+    width: 40%;
+    top: 5vh;
+    right: -20%;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    margin: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.tecnologies {
+    display: flex;
+    position: relative;
+    top: 20vh;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.tecnologies p {
+    border-bottom: 2px solid #000;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.cursos p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border: none;
+}
+
+.cursos {
+    flex-direction: column;
+    display: flex;
+    border: 1px solid #cfcaca6b;
+    border-radius: 5px;
+    gap: 2px;
+}
+
+.portfolio h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    align-items: center;
+    align-content: center;
+}
+
+.portfolio p {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: none;
+}
+
+.portfolio a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .name-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-description h1 {
+        font-size: 2em;
+    }
+    .down-name {
+        display: flex;
+        font-size: 1em;
+        position: absolute;
+        top: 10vh;
+    }
+    .contact {
+        display: flex;
+        top: 15vh;
+        left: 1px;
+    }
+    .history {
+        display: flex;
+        top: 20vh;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 1.5em;
+        left: 5px;
+    }
+    .tecnologies {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        gap: 20px;
+    }
+    .tecnologies p {
+        padding: 10px;
+        border-bottom: 2px solid #000;
+        font-family: "Courier New", Courier, monospace;
+    }
+    .cursos p {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        border: none;
+    }
+    .cursos {
+        flex-direction: column;
+        display: flex;
+        border: 1px solid #cfcaca6b;
+        border-radius: 5px;
+        gap: 1px;
+    }
+    .portfolio h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        align-items: center;
+        align-content: center;
+    }
+    .portfolio p {
+        display: flex;
+        gap: 10px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: none;
+    }
+    .portfolio a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .portfolio a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+}
